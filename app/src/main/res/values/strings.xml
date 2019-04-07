@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zomato App</string>
+    <string name="Rs">\u20B9</string>
+    <string name="sort_distance">real_distance</string>
+</resources>

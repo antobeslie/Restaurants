@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">@dimen/text_size_10</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">@dimen/text_size_10</dimen>
+
+    <dimen name="item_dob_width">100dp</dimen>
+    <dimen name="text_size_22">28sp</dimen>
+    <dimen name="text_size_18">24sp</dimen>
+    <dimen name="text_size_17">23sp</dimen>
+    <dimen name="text_size_16">22sp</dimen>
+    <dimen name="text_size_15">21sp</dimen>
+    <dimen name="text_size_14">20sp</dimen>
+    <dimen name="text_size_13">19sp</dimen>
+    <dimen name="text_size_12">18sp</dimen>
+    <dimen name="text_size_11">17sp</dimen>
+    <dimen name="text_size_10">15sp</dimen>
+    <dimen name="circular_image_size">80dp</dimen>
+    <dimen name="margin8dp">24dp</dimen>
+    <dimen name="button_height">70dp</dimen>
+    <dimen name="button_height_stat">80dp</dimen>
+    <dimen name="circular_image_size_70dp">120dp</dimen>
+    <dimen name="image_btn">48dp</dimen>
+    <dimen name="image_size_100dp">150dp</dimen>
+    <dimen name="image_size_150dp">190dp</dimen>
+    <dimen name="credits_card_w">180dp</dimen>
+    <dimen name="credits_card_h">120dp</dimen>
+    <dimen name="margin_top_15dp">32dp</dimen>
+    <dimen name="margin_top_10dp">24dp</dimen>
+    <dimen name="margin_top_8dp">32dp</dimen>
+    <dimen name="margin_top_5dp">16dp</dimen>
+    <dimen name="margin_top_3dp">10dp</dimen>
+    <dimen name="padding_2dp">8dp</dimen>
+    <dimen name="padding_4dp">16dp</dimen>
+    <dimen name="padding_8dp">16dp</dimen>
+    <dimen name="margin_top_1dp">5dp</dimen>
+    <dimen name="image_size_15dp">30dp</dimen>
+    <dimen name="image_size_30dp">40dp</dimen>
+    <dimen name="margin_top_20dp">38dp</dimen>
+    <dimen name="margin_top_50dp">120dp</dimen>
+    <dimen name="padding_10dp">24dp</dimen>
+    <dimen name="padding_15dp">30dp</dimen>
+    <dimen name="padding_20dp">38dp</dimen>
+    <dimen name="image_size_24dp">37dp</dimen>
+    <dimen name="image_size_35dp">54dp</dimen>
+    <dimen name="image_size_40dp">60dp</dimen>
+    <dimen name="image_size_45dp">65dp</dimen>
+    <dimen name="image_height_60dp">70dp</dimen>
+    <dimen name="image_size_50dp">70dp</dimen>
+    <dimen name="value_minus_10dp">-24dp</dimen>
+    <dimen name="value_minus_5dp">-12dp</dimen>
+    <dimen name="w_70">110dp</dimen>
+    <dimen name="h_25">45dp</dimen>
+    <dimen name="margin_top_25dp">44dp</dimen>
+    <dimen name="login_height">450dp</dimen>
+    <dimen name="cardview_180dp">280dp</dimen>
+    <dimen name="image_size_5dp">10dp</dimen>
+    <dimen name="home_image">50dp</dimen>
+    <dimen name="margin_10dp_for_login">10dp</dimen>
+    <dimen name="card_width_150dp">200dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="card_height_37dp">47dp</dimen>
+    <dimen name="value_minus_20dp">-30dp</dimen>
+    <dimen name="chart_size_350dp">420dp</dimen>
+    <dimen name="chart_size_450dp">500dp</dimen>
+
+    <item name="constraint_97" type="dimen" format="float">0.63</item>
+</resources>

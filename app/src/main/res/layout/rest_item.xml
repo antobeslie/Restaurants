@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_top_8dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10dp">
+
+        <FrameLayout
+            android:id="@+id/imageFrame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <ImageView
+                android:id="@+id/shop_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" />
+
+            <ProgressBar
+
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/shop_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_10dp"
+            android:fontFamily="@font/poppins"
+            android:text="Rest name"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_14"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFrame" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/rate_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            app:cardBackgroundColor="@color/colorPrimary"
+            app:cardCornerRadius="@dimen/padding_4dp"
+            app:contentPaddingLeft="@dimen/padding_4dp"
+            app:contentPaddingRight="@dimen/padding_4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageFrame"
+            app:layout_constraintTop_toTopOf="@+id/shop_name">
+
+            <TextView
+                android:id="@+id/shop_rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="3.5"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_14"
+                android:textStyle="bold" />
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/shop_cuisines"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="cusines"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shop_name" />
+
+
+        <TextView
+            android:id="@+id/shop_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins"
+            android:text="address"
+            android:textSize="@dimen/text_size_11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shop_cuisines" />
+
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_5dp"
+            android:background="#d3d3d3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shop_address" />
+
+        <TextView
+            android:id="@+id/shop_cost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_5dp"
+            android:fontFamily="@font/poppins"
+            android:text="300 for 2"
+            android:textSize="@dimen/text_size_12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_1" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
